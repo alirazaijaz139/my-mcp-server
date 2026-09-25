@@ -1,4 +1,4 @@
-from mcp.server.fastmcp import FastMCP
+from fastmcp import FastMCP
 import httpx
 
 mcp = FastMCP("MyFirstServer", host="127.0.0.1", port=8000)
