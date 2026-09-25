@@ -1,7 +1,7 @@
 from fastmcp import FastMCP
 import httpx
 
-mcp = FastMCP("MyFirstServer", host="127.0.0.1", port=8000)
+mcp = FastMCP("MyFirstServer")
 
 @mcp.tool()
 def add(a: int, b: int) -> int:
